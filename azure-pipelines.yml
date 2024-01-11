@@ -11,5 +11,5 @@ steps:
     containerRegistry: 'Docker Hub'  # Your service connection name
     repository: 'leandrot1/web-app-test'  # Your Docker Hub repository
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'  # Path to your Dockerfile in GitHub repo
+    Dockerfile: '**/dockerfile'  # Path to your Dockerfile in GitHub repo
     tags: 'test'  # Tag for the image
