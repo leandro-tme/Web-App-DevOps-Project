@@ -15,6 +15,7 @@ spec:
       containers:
       - name: flask-app
         image: leandrot1/web-app-test:test
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
   strategy:
